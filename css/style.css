@@ -1,0 +1,42 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D6DBD8;
+}
+/* COMMON */
+/* Layout */
+.container {
+    margin: 0 auto;
+    width: 80vw;
+    height: 60vh;
+    
+    position: relative;
+    top: -100px;
+    left: 0;
+    /* debug */
+    border: 1px solid black;
+}
+
+/* FLEX SETTINGS */
+.flex {
+    display: flex;
+    
+}
+
+/* Background colors */
+.bg-white {
+    background-color: white;
+}
+
+/* HEADER */
+.header {
+    background-color: #009688;
+    height: 150px;
+}
+
+/* MAIN */
