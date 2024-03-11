@@ -18,14 +18,30 @@ body {
     position: relative;
     top: -100px;
     left: 0;
+
+    z-index: 9999;
+    /* debug */
+    border: 1px solid black;
+}
+.col {
+    width: 100%;
     /* debug */
     border: 1px solid black;
 }
 
+
 /* FLEX SETTINGS */
 .flex {
     display: flex;
-    
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* Background colors */
@@ -37,6 +53,54 @@ body {
 .header {
     background-color: #009688;
     height: 150px;
+    max-height: 30vh;
 }
 
 /* MAIN */
+.col-scroll {
+    width: 20%;
+    height: 100%;
+    /* debug */
+    /* border: 1px solid black; */
+}
+
+.col-main {
+    width: 80%;
+    height: 100%;
+    /* debug */
+    border: 1px solid black;
+}
+
+/* Minor Cols */
+.top-section {
+    height: 20%;
+    /* debug */
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.notif-section {
+    height: 10%;
+    /* debug */
+    background-color: blue;
+}
+
+.search-section {
+    height: 5%;
+    /* debug */
+    background-color: greenyellow;
+}
+
+.main-section {
+    height: 65%;
+    /* flex-grow: 1; */
+}
+
+/* Message Area */
+.text-section {
+    height: 70%;
+}
+
+.type-section {
+    height: 10%;
+}

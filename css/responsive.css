@@ -1,1 +1,26 @@
 /* DESKTOP FIRST */
+
+@media screen and (max-width: 992px) {
+    .header {
+        height: 0;
+    }
+
+    .container {
+        position: static;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .col-scroll {
+        visibility: hidden;
+        width: 0%;
+    }
+
+    .col-main {
+        width: 100%;
+    }
+}
