@@ -1,9 +1,25 @@
 /* DESKTOP FIRST */
 
 @media screen and (max-width: 992px) {
+    :root {
+        --scroll-col-width: 200px;
+        --top-section-width: 60px;
+    }
+
     .header {
         height: 0;
     }
+
+    .notif-section,
+    .search-section {
+        display: none;
+    }
+
+    .main-section {
+        height: calc(100% - var(--top-section-width));
+        overflow-y: scroll;
+    }
+    
 
     .container {
         position: static;
@@ -15,6 +31,8 @@
 }
 
 @media screen and (max-width: 768px) {
+    
+
     .col-scroll {
         visibility: hidden;
         width: 0%;
