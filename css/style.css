@@ -49,14 +49,14 @@ a {
 .col {
     width: 100%;
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
 /* FLEX SETTINGS */
 .flex {
     display: flex;
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
     /* justify-content: center; */
 }
 
@@ -200,8 +200,7 @@ a {
     background-color: lightcoral;
 }
 
-.contact-card {
-    padding: 0 5px;
+.contact-card {  
     background-color: white;
     /* debug */
     min-height: 50px;
@@ -224,8 +223,34 @@ a {
 .text-section {
     height: calc(100% - (40px + var(--top-section-width)));
     overflow-y: scroll;
+
+    background-image: url(../img/mine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.col-main .contact-card {
+    background-color: #EAEAEA;
+}
+
+.col-main .preview {
+    color: gray;
+}
+
+/* Type Section */
 .type-section {
     height: 40px;
+    padding: 5px;
+}
+
+.type-box{
+    flex-grow: 1;
+    /* debug */
+    border: 1px solid black;
+}
+
+.type-icon {
+    padding: 5px 5px;
+    /* debug */
+    border: 1px solid black;
 }

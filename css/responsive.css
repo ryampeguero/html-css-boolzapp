@@ -12,7 +12,8 @@
 
     .notif-section,
     .search-section,
-    .options-icons {
+    .options-icons,
+    .main-section .contact-card .user-icon:nth-child(2) {
         display: none;
     }
 
