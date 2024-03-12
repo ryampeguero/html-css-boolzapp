@@ -4,6 +4,8 @@
     :root {
         --scroll-col-width: 60px;
         --top-section-width: 60px;
+
+        --text-container-width: 300px;
     }
 
     .header {
@@ -35,6 +37,9 @@
 
 @media screen and (max-width: 768px) {
     
+    .type-icon {
+        display: none;
+    }
 
     .col-scroll {
         visibility: hidden;
