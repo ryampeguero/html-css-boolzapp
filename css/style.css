@@ -35,7 +35,7 @@ a {
     margin: 0 auto;
     width: 80vw;
     max-width: 1000px;
-    height: 60vh;
+    height: 80vh;
     
     position: fixed;
     top: 50px;
@@ -191,12 +191,33 @@ a {
     
 }
 
-
+/* Contacts */
 .main-section {
     height: calc(100% - ( var(--top-section-width) + var(--notif-section-width) + var(--search-section-width)));
     overflow-y: scroll;
+
     /* debug */
     background-color: lightcoral;
+}
+
+.contact-card {
+    padding: 0 5px;
+    background-color: white;
+    /* debug */
+    min-height: 50px;
+    border: 1px solid black;
+}
+
+.username {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.preview {
+    display: block;
+    padding-top: 5px;
+    font-size: 0.7rem;
+    color: lightgray;
 }
 
 /* Right Col */
