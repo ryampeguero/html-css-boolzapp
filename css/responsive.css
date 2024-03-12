@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 992px) {
     :root {
-        --scroll-col-width: 200px;
+        --scroll-col-width: 60px;
         --top-section-width: 60px;
     }
 
@@ -11,10 +11,12 @@
     }
 
     .notif-section,
-    .search-section {
+    .search-section,
+    .options-icons {
         display: none;
     }
 
+    .user-icon {}
     .main-section {
         height: calc(100% - var(--top-section-width));
         overflow-y: scroll;

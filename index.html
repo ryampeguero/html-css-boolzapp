@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boolzapp</title>
 
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="./css/style.css">
@@ -23,20 +25,38 @@
             <!-- Scroll Section -->
             <div class="col-scroll flex wrap">
                 <!-- Top -->
-                <div class="top-section col">
+                <div class="top-section col flex space-between">
+                    <div class="user-icon">
+                        <img src="./img/avatar_1.jpg" alt="">
+                    </div>
 
+                    <div class="options-icons">
+                        <ul class="flex">
+                            <li><a href=""><i class="fa-solid fa-circle-notch"></i></a>
+                            </li>
+                            <li><a href=""><i class="fa-solid fa-message"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                        </ul>
+                    </div>
                 </div>   
                 <!-- /Top -->
 
                 <!-- Notifications -->
-                <div class="notif-section col">
-
+                <div class="notif-section col flex">
+                    <div class="notification-icon">
+                        <i class="fa-solid fa-bell-slash"></i> 
+                    </div>   
+                    <div class="notification-text">
+                       <span>Ricevi notifiche di nuovi messaggi</span>
+                       <span><a href="">Attiva notifiche desktop</a></span>
+                    </div>
                 </div>
                 <!-- /Notifications -->
 
                 <!-- Search -->
-                <div class="search-section col">
-
+                <div class="search-section col flex">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input id="search" type="text" placeholder="Cerca o inizia una nuova chat">
                 </div>
                 <!-- /Search -->
                 <!-- Main -->
